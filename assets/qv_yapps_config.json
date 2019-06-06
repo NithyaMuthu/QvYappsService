@@ -1,0 +1,39 @@
+{
+  "fontFamily": "Arial, Helvetica, sans-serif",
+  "color": "#000",
+  "prodDescription": {
+    "title": {
+      "fontSize": "30px"
+    },
+    "prodPrice": {
+      "color": "#000"
+    },
+    "comparePrice": {
+      "color": "#000"
+    }
+  },
+  "prodFeaturedImage": {
+    "showBorder": true,
+    "border": "1px solid #ccc"
+
+  },
+  "addToCart": {
+    "margin": "30px auto 0",
+    "borderRadius": "5px",
+    "color": "#fff",
+    "padding": "5px 0",
+    "backgroundColor": "#000",
+    "fontSize": "20px",
+    "fontWeight": "bold",
+    "textTransform": "uppercase"
+  },
+  "itemAdded": {
+    "message": "Product added to cart",
+    "color": "#d14800"
+  },
+  "quickViewBtn": {
+    "backgroundColor": "#000",
+    "color":"#fff",
+    "borderColor": "#000"
+  }
+}
