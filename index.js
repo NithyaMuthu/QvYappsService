@@ -144,6 +144,7 @@ app.get('/api/v1/shopify/config', (req, res)=>{
 app.put('/api/v1/shopify/config', (req, res)=>{
     customerConfig.saveCustomerConfig(req, res);
 });
+app.use(express.static('public'));
 app.listen(3000, () => {
     logger.info('Example app listening on port 3000!');
 });
