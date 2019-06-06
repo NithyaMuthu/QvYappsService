@@ -132,6 +132,9 @@ app.get('/shopify/callback', (req, res) => {
         res.status(400).send('Required parameters missing');
     }
 });
+app.get('/', (req, res) => {
+    res.send('Welcome to Quick View by YAPPS!');
+});
 app.get('/shopify/auth', (req, res)=>{
     customerConfig.authCustomer(req, res);
 });
