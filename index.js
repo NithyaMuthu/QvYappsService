@@ -18,6 +18,8 @@ const {
     API_VERSION,
     ALLOWED_DOMAIN,
 } = process.env;
+const port = process.env.PORT || 1337;
+
 // const SHOPIFY_API_KEY = process.env.SHOPIFY_API_KEY;
 // const SHOPIFY_API_SECRET_KEY = process.env.SHOPIFY_API_SECRET_KEY;
 const scopes = 'write_script_tags';
@@ -145,6 +147,6 @@ app.put('/api/v1/shopify/config', (req, res)=>{
     customerConfig.saveCustomerConfig(req, res);
 });
 app.use(express.static('public'));
-app.listen(3000, () => {
-    logger.info('Example app listening on port 3000!');
+app.listen(port, () => {
+    logger.info(`Example app listening on port ${port}!`);
 });
