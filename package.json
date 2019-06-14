@@ -2,6 +2,10 @@
   "name": "quickview",
   "version": "1.0.0",
   "description": "",
+  "engines": {
+    "node": ">= 10.14.0",
+    "npm": ">=2.0.0"
+  },
   "main": "index.js",
   "scripts": {
     "restart": "pm2 startOrRestart ecosystem.config.js",
