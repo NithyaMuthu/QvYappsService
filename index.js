@@ -18,7 +18,7 @@ const {
     API_VERSION,
     ALLOWED_DOMAIN,
 } = process.env;
-const port = process.env.PORT || 1337;
+const port = process.env.PORT || 8080;
 
 // const SHOPIFY_API_KEY = process.env.SHOPIFY_API_KEY;
 // const SHOPIFY_API_SECRET_KEY = process.env.SHOPIFY_API_SECRET_KEY;
