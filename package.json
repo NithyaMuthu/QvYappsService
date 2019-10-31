@@ -25,7 +25,7 @@
     "gulp-rename": "^1.4.0",
     "jsonwebtoken": "^8.5.1",
     "mongodb": "^3.2.6",
-    "mongoose": "^5.5.11",
+    "mongoose": "^5.7.5",
     "nonce": "^1.0.4",
     "request": "^2.82.0",
     "request-promise": "^4.2.1",
